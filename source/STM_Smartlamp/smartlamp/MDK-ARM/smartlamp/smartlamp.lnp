@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp.sp
+"smartlamp\startup_stm32f411xe.o"
+"smartlamp\main.o"
+"smartlamp\stm32f4xx_it.o"
+"smartlamp\stm32f4xx_hal_msp.o"
+"smartlamp\stm32f4xx_hal_adc.o"
+"smartlamp\stm32f4xx_hal_adc_ex.o"
+"smartlamp\stm32f4xx_ll_adc.o"
+"smartlamp\stm32f4xx_hal_rcc.o"
+"smartlamp\stm32f4xx_hal_rcc_ex.o"
+"smartlamp\stm32f4xx_hal_flash.o"
+"smartlamp\stm32f4xx_hal_flash_ex.o"
+"smartlamp\stm32f4xx_hal_flash_ramfunc.o"
+"smartlamp\stm32f4xx_hal_gpio.o"
+"smartlamp\stm32f4xx_hal_dma_ex.o"
+"smartlamp\stm32f4xx_hal_dma.o"
+"smartlamp\stm32f4xx_hal_pwr.o"
+"smartlamp\stm32f4xx_hal_pwr_ex.o"
+"smartlamp\stm32f4xx_hal_cortex.o"
+"smartlamp\stm32f4xx_hal.o"
+"smartlamp\stm32f4xx_hal_exti.o"
+"smartlamp\stm32f4xx_hal_uart.o"
+"smartlamp\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "smartlamp\smartlamp.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "smartlamp.map" -o smartlamp\smartlamp.axf
