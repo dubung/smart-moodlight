@@ -95,14 +95,3 @@
 
 ---
 
-## 6. 폴더 / 파일 구성 예시
-
-```text
-SmartMoodLamp
-├── README.md
-├── ControlBySwitch.gif      # 스위치 제어 데모
-├── ControlByCellphon.gif    # 스마트폰 제어 데모
-├── DataFlow.gif             # 데이터 흐름/통신 데모
-├── 구성도.png               # 시스템 구성도
-├── 순서도.png               # 동작 순서도
-└── TestSocket.aia           # MIT App Inventor 앱 소스
