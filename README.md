@@ -11,7 +11,7 @@
 ### 🔹 스위치로 제어
 
 <p align="center">
-  <img src="./ControlBySwitch.gif" alt="스위치로 무드등 제어" width="480">
+  <img src="./Docs/ControlBySwitch.gif" alt="스위치로 무드등 제어" width="480">
 </p>
 
 ---
@@ -19,7 +19,7 @@
 ### 🔹 스마트폰(앱)으로 제어
 
 <p align="center">
-  <img src="./ControlByCellphon.gif" alt="스마트폰으로 무드등 제어" width="480">
+  <img src="./Docs/ControlByCellphon.gif" alt="스마트폰으로 무드등 제어" width="480">
 </p>
 
 ---
@@ -27,7 +27,7 @@
 ### 🔹 데이터 흐름 / 통신 시퀀스
 
 <p align="center">
-  <img src="./DataFlow.gif" alt="데이터 흐름 데모" width="480">
+  <img src="./Docs/DataFlow.gif" alt="데이터 흐름 데모" width="480">
 </p>
 
 ---
@@ -50,7 +50,7 @@
 프로젝트 전체 구성을 그림으로 정리한 이미지입니다.
 
 <p align="center">
-  <img src="./구성도.png" alt="시스템 구성도" width="800">
+  <img src="./Docs/구성도.png" alt="시스템 구성도" width="800">
 </p>
 
 - 물리 스위치 → 무드등 제어 신호 입력  
@@ -65,7 +65,7 @@
 프로그램/앱의 전체 동작 흐름을 순서도로 나타낸 이미지입니다.
 
 <p align="center">
-  <img src="./순서도.png" alt="동작 순서도" width="800">
+  <img src="./Docs/순서도.png" alt="동작 순서도" width="800">
 </p>
 
 - 전원 ON 후 초기화
